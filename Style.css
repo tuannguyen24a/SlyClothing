@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Nunito", sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+#main {}
+
+/* -----------------------------------------ALL---------------------------------*/
+img {
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 50px;
+}
+
+h2 {
+    padding: 8px;
+}
+
+/* -----------------------------------------header---------------------------------*/
+#header {
+    height: 90px;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(204, 204, 204);
+    opacity: 0.8;
+    position: fixed;
+
+}
+
+.header-wapper {}
+
+.img-logo {
+    height: 50px;
+    width: 60%;
+}
+
+
+.logo {
+    display: inline-block;
+    width: 20%;
+}
+
+.header-left {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+}
+
+.header-right {
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+}
+
+.search {
+    display: inline-block;
+}
+
+.login {
+    display: inline-block;
+}
+
+.cart {
+    display: inline-block;
+}
+
+#nav li:hover {
+    /* background-color: black; */
+    /* border-radius: 8px 8px 8px 8px; */
+}
+
+#nav li:hover a {
+    /* color: black; */
+
+}
+
+#nav .sub-nav {
+    display: none;
+    margin-top: 10px;
+    width: 15%;
+    position: absolute;
+    background-color: aliceblue;
+    list-style-type: none;
+    border-radius: 3px 3px 3px 3px;
+
+}
+
+#nav li:hover .sub-nav {
+    /* display: block; */
+
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+ul ul li:hover {
+    /* background: red; */
+}
+
+/* -----------------------------------------slider---------------------------------*/
+#slider {
+    /* width: 100%; */
+    padding-top: 50%;
+    background: url("/img/grandopen-svh-1536x768.jpg") top center / cover no-repeat;
+}
+
+/* -----------------------------------------container---------------------------------*/
+#container {
+    height: 2000px;
+    width: 100%;
+}
+
+.product {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-left {
+    display: inline-block;
+}
+
+.product-center {
+    display: inline-block;
+}
+
+.product-right {
+    display: inline-block;
+}
+
+.product .inf-product {
+    text-align: center;
+}
+
+
+
+
+/* -----------------------------------------footer---------------------------------*/
+
+
+/* -----------------------------------------login---------------------------------*/
+.modal-container {
+    width: 855px;
+    height: 410px;
+    background-color: bisque;
+}
+
+
+
+
+
+
+#nav li:hover .sub-nav{
+    display: block;
+}
+#nav>li:hover {
+    background-color: blue;
+}
+ .sub-nav li:hover {
+    background-color: red;
+}
